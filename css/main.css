@@ -98,19 +98,25 @@ textarea {
    ========================================================================== */
 /* UTILITIES */
 .mainBgColor{
-  background-color: #
+  background-color: #ff928b;
 }
 
 .secondBgColor{
-
+  background-color: #ffac81;
 }
 
 .thirdBgColor{
-
+  background-color: #efe483;
 }
 
 /* COMMON */
+body{
+  font-family: 'Slabo 27px', serif;
+}
 
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Pacifico', cursive;
+}
 
 /* TEMPLATE */
 
