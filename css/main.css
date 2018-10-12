@@ -109,6 +109,66 @@ textarea {
   background-color: #efe483;
 }
 
+.width30{
+  width:30%;
+}
+
+.width50{
+  width: 50%;
+}
+
+.width80{
+  width:80%;
+}
+
+.width100{
+  width:100%;
+}
+
+.flex{
+  display: flex;
+}
+
+.flexColumn{
+  display: flex;
+  flex-direction: column;
+}
+
+.aiCenter{
+  align-items: center;
+}
+
+.jcCenter{
+  justify-content: center;
+}
+
+.jcBetween{
+  justify-content: space-between;
+}
+
+.jcAround{
+  justify-content: space-around;
+}
+
+.jcStart {
+  justify-content: flex-start;
+}
+
+.jcEnd {
+  justify-content: flex-end;
+}
+
+.marginTB1{
+  margin:1em 0;
+}
+
+.overflowH{
+  overflow: hidden;
+}
+
+.txtCenter{
+  text-align: center;
+}
 /* COMMON */
 body{
   font-family: 'Slabo 27px', serif;
@@ -118,8 +178,45 @@ h1, h2, h3, h4, h5, h6{
   font-family: 'Pacifico', cursive;
 }
 
+ul, li {
+  margin:0;
+  padding: 0;
+  list-style: none;
+
+}
 /* TEMPLATE */
 
+/* HEADER */
+ul#menu li{
+  margin-right: 2em;
+  font-size: 2em;
+}
+
+ul#menu li a{
+  text-decoration: none;
+  color: #000;
+}
+
+ul#menu li a:hover{
+  color: red;
+
+}
+
+/* MAIN */
+div.icone{
+  border-radius: 2em;
+}
+
+div.icone i{
+  margin-top: 0.25em;
+}
+article div{
+  overflow: hidden;
+  max-height: 30%;
+}
+article div img{
+  width: 100%;
+}
 
 
 

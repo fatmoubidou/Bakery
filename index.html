@@ -13,6 +13,7 @@
   <!-- Place favicon.ico in the root directory -->
 
   <link href="https://fonts.googleapis.com/css?family=Pacifico|Slabo+27px" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -22,84 +23,115 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
   <!-- HEADER  -->
-  <header>
-    <div class="">
-      <img src="" alt="">
-      <aside class="">
-        <i></i>
-        <div class="">
-          <input type="text" name="" value="Rechercher">
-          <input type="submit" name="" value="OK">
-        </div>
-      </aside>
+  <header class="flex jcCenter">
+    <div class="width80 flexColumn">
+      <div class=" flex jcBetween marginTB1">
+        <img src="icon.png" alt="">
+        <aside class="width30 flex jcBetween">
+          <i class="fas fa-user fa-3x"></i>
+          <div class="">
+            <input type="text" name="" value="Rechercher">
+            <input type="submit" name="" value="OK">
+          </div>
+        </aside>
+      </div>
+      <nav>
+        <ul id="menu" class="flex jcStart">
+          <li><a href="#">Menu1</a></li>
+          <li><a href="#">Menu2</a></li>
+          <li><a href="#">Menu3</a></li>
+          <li><a href="#">Menu4</a></li>
+          <li><a href="#">Menu5</a></li>
+        </ul>
+      </nav>
     </div>
-    <nav>
-      <ul>
-        <li>Menu1</li>
-        <li>Menu2</li>
-        <li>Menu3</li>
-        <li>Menu4</li>
-        <li>Menu5</li>
-      </ul>
-    </nav>
   </header>
 
   <!-- MAIN INDEX  -->
-  <main>
-    <section>
-      <img src="" alt="">
+  <main class="flexColumn aiCenter">
+    <section class="width80 flexColumn aiCenter overflowH">
+      <img src="img/layercake.png" alt="">
       <h1>titre</h1>
       <h2>Slogan</h2>
     </section>
-    <div class="">
-      <div class="">
-        <div class="">
-          <i></i>
-          <h3></h3>
+    <div class="width80 flexColumn">
+      <div class="flex jcBetween">
+        <div class="icone width30 flexColumn aiCenter mainBgColor">
+          <i class="fas fa-birthday-cake fa-9x"></i>
+          <h3>titre</h3>
         </div>
-        <div class="">
-          <i></i>
-          <h3></h3>
+        <div class="icone width30 flexColumn aiCenter secondBgColor">
+          <i class="fas fa-coffee fa-9x"></i>
+          <h3>titre</h3>
         </div>
-        <div class="">
-          <i></i>
-          <h3></h3>
+        <div class="icone width30 flexColumn aiCenter thirdBgColor">
+          <i class="fas fa-cookie-bite fa-9x"></i>
+          <h3>titre</h3>
         </div>
       </div>
-      <p>texte</p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In molestie tellus sed vehicula auctor.
+        Sed sed pharetra dolor. Duis nec risus nibh. Aenean ultricies purus quam, nec sodales tortor mollis in.
+        Suspendisse rhoncus commodo mi. Morbi feugiat, mi a facilisis pharetra, turpis nisi varius erat, ut fringilla
+        felis lorem porttitor magna. Ut vitae vulputate est. Pellentesque sed aliquam ex. Donec non ex sed ex pellentesque
+        ultricies eget in odio. Duis nec turpis ut lectus lobortis suscipit. Suspendisse varius accumsan dapibus. Ut nec aliquam velit,
+        sollicitudin bibendum ante. Nulla vel pharetra erat. Pellentesque in pulvinar sem.
+      </p>
     </div>
-    <img src="" alt="">
-    <section>
+    <img src="img/cupcake.png" alt="">
+    <section class="width80 flexColumn">
       <h2>Sous titre</h2>
-      <div class="">
-        <article class="">
+      <div class="flex jcBetween">
+        <article class="width30">
           <h3>titre</h3>
-          <img src="" alt="">
-          <p>texte</p>
           <div class="">
-            <i></i>
-            <i></i>
-            <i></i>
+            <img src="img/layer-cake-aux-macarons.jpg" alt="">
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            In molestie tellus sed vehicula auctor. Sed sed pharetra dolor.
+          </p>
+          <div class="flex jcEnd">
+            <div class="width50 flex jcAround">
+              <i class="fab fa-facebook-square fa-3x"></i>
+              <i class="fab fa-twitter-square fa-3x"></i>
+              <i class="fas fa-angle-double-right fa-3x"></i>
+            </div>
+          </div>
+
+        </article>
+        <article class="width30">
+          <h3>titre</h3>
+          <div class="">
+           <img src="img/gateau-au-chocolat.jpg" alt="">
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            In molestie tellus sed vehicula auctor. Sed sed pharetra dolor.
+          </p>
+          <div class="flex jcEnd">
+            <div class="width50 flex jcAround">
+              <i class="fab fa-facebook-square fa-3x"></i>
+              <i class="fab fa-twitter-square fa-3x"></i>
+              <i class="fas fa-angle-double-right fa-3x"></i>
+            </div>
           </div>
         </article>
-        <article class="">
+        <article class="width30">
           <h3>titre</h3>
-          <img src="" alt="">
-          <p>texte</p>
           <div class="">
-            <i></i>
-            <i></i>
-            <i></i>
+            <img src="img/licorne.jpg" alt="">
           </div>
-        </article>
-        <article class="">
-          <h3>titre</h3>
-          <img src="" alt="">
-          <p>texte</p>
-          <div class="">
-            <i></i>
-            <i></i>
-            <i></i>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            In molestie tellus sed vehicula auctor. Sed sed pharetra dolor.
+          </p>
+          <div class="flex jcEnd">
+            <div class="width50 flex jcAround">
+              <i class="fab fa-facebook-square fa-3x"></i>
+              <i class="fab fa-twitter-square fa-3x"></i>
+              <i class="fas fa-angle-double-right fa-3x"></i>
+            </div>
           </div>
         </article>
       </div>
@@ -107,32 +139,33 @@
   </main>
 
   <!-- FOOTER   -->
-  <footer>
-    <div class="">
-      <ul>
+  <footer class="flexColumn aiCenter">
+    <div class="width80 flex jcAround">
+      <ul class="width30 flexColumn aiCenter">
         <li><a>Lien</a></li>
         <li><a>Lien</a></li>
         <li><a>Lien</a></li>
         <li><a>Lien</a></li>
       </ul>
-      <ul>
+      <ul class="width30 flexColumn aiCenter">
         <li><a>Lien</a></li>
         <li><a>Lien</a></li>
         <li><a>Lien</a></li>
         <li><a>Lien</a></li>
       </ul>
-      <ul>
+      <ul class="width30 flexColumn aiCenter">
         <li><a>Lien</a></li>
         <li><a>Lien</a></li>
         <li><a>Lien</a></li>
         <li><a>Lien</a></li>
       </ul>
     </div>
-    <p>Crédits</p>
-    <div class="">
-      <i></i>
-      <i></i>
-      <i></i>
+    <p class="txtCenter">Crédits</p>
+    <div class="width100 flex jcAround">
+      <a href="#"><i class="fab fa-facebook-square fa-5x"></i></a>
+      <a href="#"><i class="fab fa-linkedin fa-5x"></i></a>
+      <a href="#"><i class="fab fa-github-square fa-5x"></i></a>
+      <a href="#"><i class="fab fa-stack-overflow fa-5x"></i></a>
     </div>
   </footer>
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
