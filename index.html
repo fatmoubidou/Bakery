@@ -26,17 +26,24 @@
   <header class="flex jcCenter">
     <div class="width80 flexColumn">
       <div class=" flex jcBetween marginTB1">
-        <img src="icon.png" alt="">
-        <aside class="width30 flex jcBetween">
-          <i class="fas fa-user fa-3x"></i>
-          <div class="">
-            <input type="text" name="" value="Rechercher">
-            <input type="submit" name="" value="OK">
+        <div class="">
+          <img class="logo" src="icon.png" alt="">
+        </div>
+
+        <aside class="width50 flex jcEnd">
+          <i class="fas fa-user "></i>
+          <div class="search tablet">
+            <form class="flex jcBetween ">
+              <input class="width70" type="text" name="" value="Rechercher">
+              <input class="width20 button" type="submit" name="" value="OK">
+            </form>
           </div>
+
         </aside>
       </div>
       <nav>
-        <ul id="menu" class="flex jcStart">
+        <i class="fas fa-bars mobile"></i>
+        <ul id="menu" class="tabletFlex jcStart ">
           <li><a href="#">Menu1</a></li>
           <li><a href="#">Menu2</a></li>
           <li><a href="#">Menu3</a></li>
@@ -49,26 +56,26 @@
 
   <!-- MAIN INDEX  -->
   <main class="flexColumn aiCenter">
-    <section class="width80 flexColumn aiCenter overflowH">
-      <img src="img/layercake.png" alt="">
+    <section id="mainPhoto" class="width80 flexColumn aiCenter marginTB1">
+      <img class="tablet" src="img/layercake.png" alt="">
       <h1>titre</h1>
       <h2>Slogan</h2>
     </section>
-    <div class="width80 flexColumn">
-      <div class="flex jcBetween">
-        <div class="icone width30 flexColumn aiCenter mainBgColor">
-          <i class="fas fa-birthday-cake fa-9x"></i>
-          <h3>titre</h3>
-        </div>
-        <div class="icone width30 flexColumn aiCenter secondBgColor">
-          <i class="fas fa-coffee fa-9x"></i>
-          <h3>titre</h3>
-        </div>
-        <div class="icone width30 flexColumn aiCenter thirdBgColor">
-          <i class="fas fa-cookie-bite fa-9x"></i>
-          <h3>titre</h3>
-        </div>
+    <div class="width80 flex jcBetween desktopFlex">
+      <div class="icone width30 flexColumn aiCenter mainBgColor">
+        <i class="fas fa-birthday-cake fa-9x"></i>
+        <h3>titre</h3>
       </div>
+      <div class="icone width30 flexColumn aiCenter secondBgColor">
+        <i class="fas fa-coffee fa-9x"></i>
+        <h3>titre</h3>
+      </div>
+      <div class="icone width30 flexColumn aiCenter thirdBgColor">
+        <i class="fas fa-cookie-bite fa-9x"></i>
+        <h3>titre</h3>
+      </div>
+    </div>
+    <div class="width80 flexColumn marginTB1">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. In molestie tellus sed vehicula auctor.
         Sed sed pharetra dolor. Duis nec risus nibh. Aenean ultricies purus quam, nec sodales tortor mollis in.
@@ -77,14 +84,18 @@
         ultricies eget in odio. Duis nec turpis ut lectus lobortis suscipit. Suspendisse varius accumsan dapibus. Ut nec aliquam velit,
         sollicitudin bibendum ante. Nulla vel pharetra erat. Pellentesque in pulvinar sem.
       </p>
+      <div class="">
+        <img class="width100" src="img/cupcake.png" alt="">
+      </div>
+
     </div>
-    <img src="img/cupcake.png" alt="">
+
     <section class="width80 flexColumn">
       <h2>Sous titre</h2>
-      <div class="flex jcBetween">
-        <article class="width30">
-          <h3>titre</h3>
-          <div class="">
+      <div id="blocArticle" class="flex">
+        <article class="marginTB1">
+          <h3 class="txtCenter">titre</h3>
+          <div class="divImg">
             <img src="img/layer-cake-aux-macarons.jpg" alt="">
           </div>
           <p>
@@ -93,16 +104,16 @@
           </p>
           <div class="flex jcEnd">
             <div class="width50 flex jcAround">
-              <i class="fab fa-facebook-square fa-3x"></i>
-              <i class="fab fa-twitter-square fa-3x"></i>
-              <i class="fas fa-angle-double-right fa-3x"></i>
+              <i class="fab fa-facebook-square"></i>
+              <i class="fab fa-twitter-square"></i>
+              <i class="fas fa-angle-double-right"></i>
             </div>
           </div>
 
         </article>
-        <article class="width30">
-          <h3>titre</h3>
-          <div class="">
+        <article class="marginTB1">
+          <h3 class="txtCenter">titre</h3>
+          <div class="divImg">
            <img src="img/gateau-au-chocolat.jpg" alt="">
           </div>
           <p>
@@ -111,15 +122,15 @@
           </p>
           <div class="flex jcEnd">
             <div class="width50 flex jcAround">
-              <i class="fab fa-facebook-square fa-3x"></i>
-              <i class="fab fa-twitter-square fa-3x"></i>
-              <i class="fas fa-angle-double-right fa-3x"></i>
+              <i class="fab fa-facebook-square"></i>
+              <i class="fab fa-twitter-square"></i>
+              <i class="fas fa-angle-double-right"></i>
             </div>
           </div>
         </article>
-        <article class="width30">
-          <h3>titre</h3>
-          <div class="">
+        <article class="marginTB1">
+          <h3 class="txtCenter">titre</h3>
+          <div class="divImg">
             <img src="img/licorne.jpg" alt="">
           </div>
           <p>
@@ -128,9 +139,9 @@
           </p>
           <div class="flex jcEnd">
             <div class="width50 flex jcAround">
-              <i class="fab fa-facebook-square fa-3x"></i>
-              <i class="fab fa-twitter-square fa-3x"></i>
-              <i class="fas fa-angle-double-right fa-3x"></i>
+              <i class="fab fa-facebook-square"></i>
+              <i class="fab fa-twitter-square"></i>
+              <i class="fas fa-angle-double-right"></i>
             </div>
           </div>
         </article>
@@ -139,8 +150,8 @@
   </main>
 
   <!-- FOOTER   -->
-  <footer class="flexColumn aiCenter">
-    <div class="width80 flex jcAround">
+  <footer class="flexColumn aiCenter footerbgColor">
+    <div class="width80 desktopFlex jcAround marginTB1">
       <ul class="width30 flexColumn aiCenter">
         <li><a>Lien</a></li>
         <li><a>Lien</a></li>
@@ -162,10 +173,10 @@
     </div>
     <p class="txtCenter">Crédits</p>
     <div class="width100 flex jcAround">
-      <a href="#"><i class="fab fa-facebook-square fa-5x"></i></a>
-      <a href="#"><i class="fab fa-linkedin fa-5x"></i></a>
-      <a href="#"><i class="fab fa-github-square fa-5x"></i></a>
-      <a href="#"><i class="fab fa-stack-overflow fa-5x"></i></a>
+      <a href="#"><i class="fab fa-facebook-square"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-github-square"></i></a>
+      <a href="#"><i class="fab fa-stack-overflow"></i></a>
     </div>
   </footer>
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
