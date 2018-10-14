@@ -23,37 +23,9 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
   <!-- HEADER  -->
-  <header class="flex jcCenter">
-    <div class="width80 flexColumn">
-      <div class=" flex jcBetween marginTB1">
-        <div class="">
-          <img class="logo" src="icon.png" alt="">
-        </div>
-
-        <aside class="width50 flex jcEnd">
-          <i class="fas fa-user "></i>
-          <div class="search tablet">
-            <form class="flex jcBetween ">
-              <input class="width70" type="text" name="" value="Rechercher">
-              <button type="button" name="button" class="width20"><i class="fas fa-search"></i></button>
-            </form>
-          </div>
-
-        </aside>
-      </div>
-      <nav>
-        <button class="mobile" type="button" name="button"><i class="fas fa-bars "></i></button>
-        <ul id="menu" class="tabletFlex jcStart ">
-          <li><a href="#">Menu1</a></li>
-          <li><a href="#">Menu2</a></li>
-          <li><a href="#">Menu3</a></li>
-          <li><a href="#">Menu4</a></li>
-          <li><a href="#">Menu5</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
+  <?php
+    include("header.php");
+  ?>
   <!-- MAIN INDEX  -->
   <main class="flexColumn aiCenter">
     <section id="mainPhoto" class="width80 flexColumn aiCenter marginTB1">
@@ -150,35 +122,9 @@
   </main>
 
   <!-- FOOTER   -->
-  <footer class="flexColumn aiCenter footerbgColor">
-    <div class="width80 desktopFlex jcAround marginTB1">
-      <ul class="width30 flexColumn aiCenter">
-        <li><a>Lien</a></li>
-        <li><a>Lien</a></li>
-        <li><a>Lien</a></li>
-        <li><a>Lien</a></li>
-      </ul>
-      <ul class="width30 flexColumn aiCenter">
-        <li><a>Lien</a></li>
-        <li><a>Lien</a></li>
-        <li><a>Lien</a></li>
-        <li><a>Lien</a></li>
-      </ul>
-      <ul class="width30 flexColumn aiCenter">
-        <li><a>Lien</a></li>
-        <li><a>Lien</a></li>
-        <li><a>Lien</a></li>
-        <li><a>Lien</a></li>
-      </ul>
-    </div>
-    <p class="txtCenter">Crédits</p>
-    <div class="width100 flex jcAround">
-      <a href="#"><i class="fab fa-facebook-square"></i></a>
-      <a href="#"><i class="fab fa-linkedin"></i></a>
-      <a href="#"><i class="fab fa-github-square"></i></a>
-      <a href="#"><i class="fab fa-stack-overflow"></i></a>
-    </div>
-  </footer>
+  <?php  
+    include("footer.php");
+  ?>
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
